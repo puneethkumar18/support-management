@@ -1,0 +1,24 @@
+{% extends "rest_framework/base.html" %}
+
+{% block style %}
+{{ block.super }}
+
+<style>
+body {
+    background-color: #121212;
+    color: white;
+}
+
+.navbar {
+    background-color: #1e1e1e;
+}
+
+.well,
+.panel,
+.card {
+    background-color: #1e1e1e;
+    color: white;
+}
+</style>
+
+{% endblock %}
